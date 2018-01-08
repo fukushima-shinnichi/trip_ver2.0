@@ -1,0 +1,473 @@
+body {
+  background-color: rgba(255,192,203,0.3)
+}
+
+/*********   menu   ******************/
+ul.menu {
+  overflow:hidden; 
+  margin: 0px auto;
+  padding: 0px;
+  width: 400px;
+}
+
+.menu li {
+  float: left;
+  list-style: none;
+  width: 190px;
+  text-align: center;
+  padding: 40px 5px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Concert One', cursive;
+  font-size: 40px;
+}
+
+.menu a:hover {
+  font-weight: bold;
+  color: #ff0;
+}
+
+/*****   top_img_box   **************/
+.top_img_box {
+  width: 400px;
+  margin: 0px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.top_img {
+  width: 400px;
+  margin: 0px auto;
+  padding: 0px;
+}
+
+    /******   top_img speechBalloon   *********/
+div.title_erea {
+  position: absolute;
+  top: 30px;
+  right: 5px;
+}
+
+div.title_comment {
+  position: relative;
+}
+
+.title_comment p {
+  font-size: 35px;
+  font-family: 'Marck Script', cursive;
+  margin: 0px;
+  padding: 10px 15px;
+  border-radius: 30px;
+  background-color: rgba(255,255,255,0.8);
+}
+
+.title_comment::after {
+  content: "";
+  position: absolute;
+  bottom: 30px;
+  left: -30px;
+  border: solid 10px transparent;
+  border-right: solid 20px rgba(255,255,255,0.8);
+}
+
+/***********   content   ***************/
+ul.content {
+  width: 400px;
+  margin: 0px auto;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.content li {
+  list-style: none;
+  width: 400px;
+  margin: 0px;
+  padding: 0px;
+}
+
+    /***********   countdown_page   ****************/
+#countdown_page {
+  background-color: rgba(135,206,235,0.5);
+}
+
+#countdown_page img {
+  width: 400px;
+}
+
+#countdown_page h3 {
+  font-family: 'Concert One', cursive;
+  font-weight: normal;
+  margin: 0px;
+  padding: 10px;
+  font-size: 40px;
+}
+
+h1 {
+  font-family: 'Concert One', cursive;
+  font-size: 50px;
+  padding: 10px;
+  margin: 0px;
+}
+
+span {
+  font-size: 60px;
+  color: #ff69b4;
+}
+
+      /******* countdown_page speech balloon   ***********/
+div.speechBalloon {
+  padding: 5px 5px 50px 5px;
+  margin: 0px auto;
+}
+
+div.speechBalloonComment {
+  width: 340px;
+  background-color: #ffffe0;
+  border: solid 4px #ffff00;
+  border-radius: 40px;
+  margin: auto;
+  position: relative;
+}
+
+#countdown_page .speechBalloonComment::before {
+  content: "";
+  position: absolute;
+  top: -110px;
+  left: 140px;
+  border: solid 30px transparent;
+  border-bottom: solid 80px #ffff00;
+}
+
+#countdown_page .speechBalloonComment::after {
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: 140px;
+  border: solid 30px transparent;
+  border-bottom: solid 80px #ffffe0;
+}
+
+  /********   time_schedule   *************/
+#time_schedule {
+  background-color: rgba(135,206,235,0.5);
+}
+
+    /*******   you_comment   **********/
+.you_comment {
+  overflow: hidden;
+}
+
+.you_comment img {
+  width: 80px;
+  border-radius: 40px;
+  margin: 31.5px 0px 0px 50px;
+}
+
+.you_comment .speechBalloonComment, .you_comment img {
+  float: left;
+}
+
+.you_comment .speechBalloonComment {
+  width: 232px;
+  margin: 20px 0px 20px 10px;
+  overflow-wrap: break-word;
+}
+
+.you_comment .speechBalloonComment::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  right: -65px;
+  border: solid 15px transparent;
+  border-left: solid 50px #ffff00;
+}
+
+.you_comment .speechBalloonComment::after {
+  content: "";
+  position: absolute;
+  top: 40px;
+  right: -55px;
+  border: solid 15px transparent;
+  border-left: solid 50px #ffffe0;
+}
+
+#time_schedule p {
+  font-family: 'Bree Serif', serif;
+  font-size: 30px;
+  margin: 10px;
+}
+
+    /*********   pepper comment   ************/
+.pepper_comment {
+  overflow: hidden;
+}
+
+.pepper_comment img {
+  width: 80px;
+  border-radius: 40px;
+  margin: 31.5px 50px 0px 10px;
+  background-color: rgba(135,206,235,0.5);
+}
+
+.pepper_comment .speechBalloonComment, .pepper_comment img {
+  float: left;
+}
+
+.pepper_comment .speechBalloonComment {
+  width: 232px;
+  margin: 20px 0px;
+  overflow-wrap: break-word;
+}
+
+
+.pepper_comment .speechBalloonComment::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: -65px;
+  border: solid 15px transparent;
+  border-right: solid 50px #ffff00;
+}
+
+.pepper_comment .speechBalloonComment::after {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: -55px;
+  border: solid 15px transparent;
+  border-right: solid 50px #ffffe0;
+}
+
+/*****   sounds button box   ********/
+div.button_box {
+  width: 400px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.button_box button {
+  width: 120px;
+  margin: 20px 0px 20px 10px;
+  padding: 0px;
+  border: none;
+  float: left;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgba(211,211,211,0.8);
+}
+
+i.fa {
+  font-size: 50px;
+  margin: 10px 0px;
+}
+
+.button_box button:hover {
+  background-color: rgba(255,182,193,0.8);
+  color: #ff0;
+}
+
+
+
+/******   display control   ***************/
+#countdown_page, #time_schedule {
+  display: none;
+}
+
+/*
+.top_img_box {
+  display: none;
+}
+*/
+
+
+/**********   use font control   **************/
+@font-face {
+  font-family: "Concert One";
+  src: url("web_font/ConcertOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Bree Serif";
+  src: url("web_font/BreeSerif-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Marck Script';
+  src:url("web_font/MarckScript-Regular.ttf");
+}
+
+/*******   use goole font   ****************/
+/*
+font-family: 'Concert One', cursive;
+font-family: 'Bree Serif', serif;
+font-family: 'Marck Script', cursive;
+*/
+
+
+/******   goole font  ***********/
+/*
+font-family: 'Modak', cursive;
+font-family: 'Fascinate Inline', cursive;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Encode Sans Expanded', sans-serif;
+font-family: 'Bree Serif', serif;
+font-family: 'Righteous', cursive;
+font-family: 'Concert One', cursive;
+font-family: 'Antic Slab', serif;
+*/
+
+
+
+/***********   responsive design to PC css   **********/
+
+@media screen and (min-width: 767px){
+
+  /*********   menu   ******************/
+  ul.menu {
+    width: 980px;
+  }
+
+  .menu li {
+    width: 490px;
+    padding: 30px 0px;
+  }
+
+  .menu a {
+    font-size: 60px;
+  }
+
+  /*****   top_img_box   **************/
+  .top_img_box {
+    width: 980px;
+  }
+
+  .top_img {
+    width: 980px;
+  }
+
+      /******   top_img speechBalloon   *********/
+  div.title_erea {
+    position: absolute;
+    top: 120px;
+    right: 100px;
+  }
+
+  div.title_comment {
+    position: relative;
+  }
+
+  .title_comment p {
+    font-size: 70px;
+    padding: 30px;
+    border-radius: 50px;
+  }
+
+  .title_comment::after {
+    content: "";
+    position: absolute;
+    bottom: 70px;
+    left: -100px;
+    border: solid 30px transparent;
+    border-right: solid 70px rgba(255,255,255,0.8);
+  }
+
+  /***********   content   ***************/
+  ul.content {
+    width: 980px;
+  }
+
+  .content li {
+    width: 980px;
+  }
+
+      /***********   countdown_page   ****************/
+
+  #countdown_page img {
+    width: 980px;
+  }
+
+
+  #countdown_page h3 {
+    font-size: 50px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  span {
+    font-size: 80px;
+  }
+
+        /******* countdown_page speech balloon   ***********/
+
+  div.speechBalloonComment {
+    width: 772px;
+  }
+
+  #countdown_page .speechBalloonComment::before {
+    content: "";
+    position: absolute;
+    top: -180px;
+    left: 350px;
+    border: solid 50px transparent;
+    border-bottom: solid 130px #ffff00;
+  }
+
+  #countdown_page .speechBalloonComment::after {
+    content: "";
+    position: absolute;
+    top: -160px;
+    left: 350px;
+    border: solid 50px transparent;
+    border-bottom: solid 130px #ffffe0;
+  }
+
+    /********   time_schedule   *************/
+
+      /*******   you_comment   **********/
+
+  .you_comment img {
+    width: 150px;
+    border-radius: 75px;
+    margin: 31.5px 121px 0px 80px;
+  }
+
+  .you_comment .speechBalloonComment {
+    width: 500px;
+    margin: 50px 0px 50px 121px;
+  }
+
+  #time_schedule p {
+    font-family: 'Bree Serif', serif;
+    font-size: 40px;
+    margin: 10px;
+  }
+
+      /*********   pepper comment   ************/
+
+  .pepper_comment img {
+    /*
+    width: 80px;
+    border-radius: 40px;
+    margin: 31.5px 50px 0px 10px;
+    background-color: rgba(135,206,235,0.5);
+    */
+    width: 150px;
+    border-radius: 75px;
+    margin: 31.5px 121px 0px 80px;
+  }
+
+  .pepper_comment .speechBalloonComment {
+    width: 500px;
+    margin: 50px 0px 50px 121px;
+    margin: 50px 121px 50px 0px;
+  }
+
+  /*****   sounds button box   ********/
+
+
+}

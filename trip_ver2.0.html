@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>trip web letter</title>
+<meta name="description" content="IZU ONSEN trip web guide">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+<link rel="stylesheet" href="css/trip_ver2.0/trip_ver2.0.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+  <div class="imageLayer">
+    <ul class="menu">
+      <li><a href="#countdown_page">countdown <br>page</a></li>
+      <li><a href="#time_schedule">time <br>schedule</a></li>
+    </ul>
+    <div class="top_img_box">
+      <img class="top_img" src="img/trip_ver2.0/onsen.jpg">
+      <div class="title_erea">
+        <div class="title_comment">
+          <p>Guidebook of<br>onsen<br>by Shinichi.</p>
+        </div>
+      </div>
+    </div>
+    <ul class="content">
+      <li id="countdown_page">
+        <img src="img/trip_ver2.0/woman.jpg">
+          <div class="speechBalloon">
+            <div class="speechBalloonComment">
+              <h3>Until travel start is</h3>
+              <h1><span class="month"></span>months and <span class="date"></span> days, <span class="hour"></span> hours, <span class="minute"></span> minutes, <span class="second"></span> seconds</h1>
+              <h3>to have time.</h3>
+          </div>
+        </div>
+      </li>
+      <li id="time_schedule">
+        <div class="you_comment">
+          <div class="speechBalloonComment">
+            <p>12/29(Fri)</p>
+            <p>11:40 <br>Waiting time at Tokyo station.</p>
+            <p>12:30~ Departure time of train.</p>
+            <p>Let's go to IZU.</p>
+          </div>
+          <img src="img/trip_ver2.0/mymelody.jpg">
+        </div>
+        <div class="pepper_comment">
+          <img src="img/trip_ver2.0/pepper.png">
+          <div class="speechBalloonComment">
+            <p>12/30(Sat)</p>
+            <p>11:00 <br>Check out the HOTEL.</p>
+            <p>12:02~ Departure time of train.</p>
+            <p>Let's go to Tokyo.</p>
+          </div>
+        </div>
+        
+      </li>
+    </ul>
+  </div>
+  
+  <div class="button_box">
+    <button id="up">
+      <i class="fa fa-volume-up" aria-hidden="true"></i>
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </button>
+    <button id="down">
+      <i class="fa fa-volume-up" aria-hidden="true"></i>
+      <i class="fa fa-arrow-down" aria-hidden="true"></i>
+    </button>
+    <button id="mute">
+      <i class="fa fa-ban" aria-hidden="true"></i>
+    </button>
+  </div>
+  
+<audio id="songs1" src="audio/trip_ver2.0/Hutarisezon.mp3" preload="auto"></audio>
+<audio id="songs2" src="audio/trip_ver2.0/Namdodemo%20(mp3cut.net).mp3" preload="auto"></audio>
+<audio id="songs3" src="audio/trip_ver2.0/Trisetu_Kobasolo_Lefty_hand_cream%20(mp3cut.net).mp3" preload="auto"></audio>
+
+<!---------   jQuery    ----------------------->
+<script src="jQuery_base/jquery-3.2.1.min.js"></script>
+<script src="jQuery_base/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="js/trip_ver2.0/trip_ver2.0.js"></script>
+</body>
+</html>
